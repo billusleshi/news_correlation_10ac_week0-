@@ -1,32 +1,52 @@
-Project Documentation: Exploring Global News Data for Sentiment Analysis and Correlation
-Introduction:
-The project focuses on analyzing a dataset comprising global news articles collected over recent months using the NewsAPI. The primary goal is to perform exploratory data analysis (EDA), sentiment analysis, and correlation analysis among various media agencies worldwide. This project serves as part of the evaluation process for candidates applying for the Data Engineering (DE), Generative AI Engineer (AIE), and Machine Learning Engineering (MLE) training program at 10 Academy.
+Overview
 
-Contributions:
-This documentation outlines the contributions and implementation steps of the project, which include:
+This project involves the development of a comprehensive solution for analyzing news data, building machine learning components, and implementing MLOps practices. The project is divided into three main tasks:
 
-1. Environment Setup and Version Control:
-Setting up a Python environment, version control using Git, and implementing continuous integration/continuous deployment (CI/CD) to ensure smooth development and collaboration.
-2. Exploratory Data Analysis (EDA):
-Understanding the dataset's structure and content through statistical analysis and visualization techniques.
-Identifying top and bottom-ranking websites based on news article counts, websites with significant traffic, countries hosting the highest number of news organizations, and regions with extensive news coverage.
-3. Sentiment Analysis:
-Analyzing sentiment within news articles, categorizing them as positive, negative, or neutral.
-Assessing sentiment distribution across different websites and exploring the impact of frequent news reporting and sentiment on website rankings.
-4. Correlation Analysis:
-Examining correlations between various factors such as news reporting frequency, sentiment, and website traffic to understand potential relationships and insights.
-Implementation:
-Data Loading and Preparation:
-Loading and preprocessing the dataset using Python programming.
-Handling missing values and ensuring data consistency.
-Exploratory Data Analysis (EDA):
-Employing statistical analysis and visualization techniques to explore key characteristics of the data.
-Identifying patterns, trends, and outliers.
-Sentiment Analysis:
-Utilizing natural language processing (NLP) techniques to analyze the sentiment of news article titles.
-Providing insights into the overall tone and sentiment distribution across media agencies.
-Correlation Analysis:
-Investigating relationships between different variables such as news reporting frequency, sentiment, and website traffic.
-Uncovering meaningful insights through statistical methods and visualizations.
-Conclusion:
-The project offers a comprehensive analysis report summarizing findings and insights derived from the EDA, sentiment analysis, and correlation analysis. Visualizations and statistical summaries support the analysis, facilitating better understanding and interpretation of the data. Overall, the project provides hands-on experience in data analysis, NLP, and correlation analysis, showcasing skills and abilities in handling real-world datasets and deriving actionable insights.
+1. **Task 1: Data Analysis and Preprocessing**
+   - In this task, we analyze and preprocess news data to extract meaningful insights and prepare it for further analysis and modeling.
+
+2. **Task 2: Data Science Component Building and MLOps**
+   - Task 2 focuses on building various data science components, including data preprocessing, model building, analysis pipelines, topic modeling, sentiment analysis, time series analysis, and unit testing. Additionally, we implement MLOps practices such as model versioning, tracking experiments, and managing ML lifecycle.
+
+3. **Task 3: Model Training and Evaluation**
+   - Task 3 involves training machine learning models on the preprocessed data and evaluating their performance using appropriate metrics. We also discuss model versioning, model serving, and monitoring practices.
+
+## Task 1: Data Analysis and Preprocessing
+
+- **Data Collection**: We collected news data from multiple sources and performed exploratory data analysis (EDA) to gain insights into the dataset's structure, features, and characteristics.
+
+- **Data Preprocessing**: Preprocessing steps included cleaning the data, handling missing values, encoding categorical variables, and splitting the data into training and testing sets.
+
+- **Feature Engineering**: We engineered new features from the existing data to improve model performance and capture additional information.
+
+## Task 2: Data Science Component Building and MLOps
+
+### Data Science Components:
+
+- **Data Processing**: Implemented data preprocessing and feature engineering steps to prepare the data for modeling.
+
+- **Model Building**: Developed machine learning models, including training, evaluation, and prediction functions.
+
+- **Analysis Pipeline**: Designed an analysis pipeline that incorporates data processing, modeling, and evaluation steps.
+
+- **Topic Modeling**: Implemented topic modeling algorithms to categorize news articles into predefined tags.
+
+- **Sentiment Analysis**: Implemented sentiment analysis algorithms to determine the sentiment of news articles.
+
+- **Time Series Analysis**: Implemented time series analysis techniques for analyzing trends in news data over time.
+
+### MLOps Practices:
+
+- **Model Versioning**: Versioned ML models and their associated artifacts using MLFlow to track changes and reproduce experiments.
+
+- **Model Serving and Monitoring**: Deployed ML models in production environments and monitored their performance and health.
+
+## Task 3: Model Training and Evaluation
+
+- **Model Selection**: Selected appropriate machine learning models based on the problem domain and data characteristics.
+
+- **Data Preparation**: Preprocessed the data, split it into training and testing sets, and handled feature scaling and encoding.
+
+- **Model Training**: Trained the selected models on the training data using suitable algorithms and hyperparameters.
+
+- **Model Evaluation**: Evaluated the trained models' performance using various evaluation metrics, including accuracy, precision, recall, F1-score, etc.
